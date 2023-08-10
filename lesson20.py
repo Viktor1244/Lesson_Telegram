@@ -12,7 +12,7 @@ API_TOKEN = '6509952507:AAHgCnur5crKsHFbT_-3EcbDV-JK03SgZI8'
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
-# Initialize bot and dispatcher
+
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
